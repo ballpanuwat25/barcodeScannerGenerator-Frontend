@@ -45,7 +45,7 @@ function BarcodeGenerator() {
                 />
             </div>
 
-            <div ref={barcodeRef} className="form-control d-flex justify-content-center align-items-center" >
+            <div ref={barcodeRef} className="d-flex justify-content-center align-items-center" >
                 {barcode.trim() !== "" ? <Barcode value={barcode} background="#ffffff" /> : <p>No barcode preview</p>}
             </div>
 
